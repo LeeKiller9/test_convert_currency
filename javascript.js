@@ -1,6 +1,7 @@
 let vnd = null
 let usd = null
 let result = null
+const TYGIA = 23500
 
 function checkInput() {
     vnd = document.getElementById('vnd').value
@@ -30,7 +31,7 @@ function checkInput() {
 function toVND() {
     if (checkInput()) {
         if (vnd === '') {
-            result = usd * 23500
+            result = usd * TYGIA
         } else {
             result = vnd
         }
@@ -41,7 +42,7 @@ function toVND() {
 function toUSD() {
     if (checkInput()) {
         if (usd === '') {
-            result = vnd / 23500
+            result = vnd / TYGIA
         } else {
             result = usd
         }
