@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 355px;
+    margin: 40px auto 0;
+    text-align: center
+}
+
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+}
+
+
+#result {
+    margin-top: 30px;
+    color: red;
+    font-size: 20px;
+}
